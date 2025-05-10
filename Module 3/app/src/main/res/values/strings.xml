@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Wuwa List</string>
+
+    <string-array name="nama_character">
+        <item>Carlotta</item>
+        <item>Phoebe</item>
+        <item>Jinhsi</item>
+        <item>Calcharo</item>
+        <item>Cartethyia</item>
+    </string-array>
+
+    <string-array name="photo_character">
+        <item>@drawable/card_carlotta</item>
+        <item>@drawable/card_phoebe</item>
+        <item>@drawable/jihni_card</item>
+        <item>@drawable/kakarot_card</item>
+        <item>@drawable/cartethyia_card</item>
+    </string-array>
+
+    <string-array name="link_character">
+        <item>https://wutheringwaves.fandom.com/wiki/Carlotta</item>
+        <item>https://wutheringwaves.fandom.com/wiki/Phoebe</item>
+        <item>https://wutheringwaves.fandom.com/wiki/Jinhsi</item>
+        <item>https://wutheringwaves.fandom.com/wiki/Calcharo</item>
+        <item>https://wutheringwaves.fandom.com/wiki/Cartethyia</item>
+    </string-array>
+
+    <string-array name="deskripsi_character">
+        <item>Carlotta (Chinese: 珂莱塔) is a playable Glacio Mutant Resonator in Wuthering Waves. She is the second daughter of the esteemed Montelli family of Rinascita, embodying innate nobility and a refined appreciation for art.</item>
+        <item>Phoebe (Chinese: 菲比) is a playable Spectro Unknown Resonator in Wuthering Waves. She is an Acolyte of the Order of the Deep. She is a young woman of quiet devotion. With a kind heart, she fulfills her duties with unwavering diligence. Her prayers, like the light she carries, offer comfort and peace to all.</item>
+        <item>Jinhsi (Chinese: 今汐) is a playable Spectro Congenital Resonator in Wuthering Waves. She is the magistrate of Jinzhou. She has a resonance connection with the Sentinel, Jué, who manifests in the shape of a LoongDragon.</item>
+        <item>Calcharo is a playable Electro Natural Resonator in Wuthering Waves. He is a former Exile from the New Federation\'s Lawless Zone and the leader of the Ghost Hounds.</item>
+        <item>Cartethyia (Chinese: 卡提修雅) is an upcoming Aero Resonator in Wuthering Waves. Throughout Rinascita, she is revered as Fleurdelys, the "Blessed Maiden," and in some accounts, "The Martyred Maiden." As a key figure in the region’s history, she holds profound influence, with her connections to the Sentinel Imperator, the Threnodian Leviathan, and the Dark Tide.</item>
+    </string-array>
+
+    <string-array name="profile_character">
+        <item>The second daughter of Montelli and an art investor unbound by convention, Carlotta moves seamlessly through social circles and business transactions while quietly handling the family\'s unspeakable "troubles" in secret. The blooming of a "gem," the taking of a life—In her own name, she reshapes reality, giving it a new dimension.</item>
+        <item>Phoebe, Acolyte of the Order of the Deep, is a young woman of quiet devotion. With a kind heart, she fulfills her duties with unwavering diligence. Her prayers, like the light she carries, offer comfort and peace to all.</item>
+        <item>Jinhsi, Magistrate of Jinzhou, gently brightens the hopes of her people, like rays of winter sunlight. As the revered Sentinel\'s Appointed Resonator, she displays humility and wholeheartedly commits herself to guiding her people towards a brilliant future.</item>
+        <item>Leader of the "Ghost Hounds", an international mercenary group. Ruthless, vengeful, unforgiving. A potential client must be mindful of the price to pay before making him an offer.</item>
+        <item>Cartethyia is known best by her holy name, Fleurdelys, the "Blessed Maiden". She is said to have once lived in Whisperwind Haven, though most stories about her have been lost to time. \nAccording to a play still known by the Troupe of Fools, Cartethyia was originally a peasant girl who snuck past guards during a Sentinel\'s Gratitude Rite in Egla Town. She had gotten intoxicated after consuming the sacramental wine and proceeded to turn the solemn ceremony into a wild parade. The Pilgrim\'s Sail had not existed yet, so the Order of the Deep instead placed her in confinement for three days, during which she used her prison walls as a canvas. \nDespite this, she was chosen to become the Blessed Maiden, and led Ragunna for a time, during which she promoted grand celebrations during the Carnevale. However, twenty years prior to the Main Quest, she had supposedly martyred herself to stop the second Dark Tide from destroying Ragunna.</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
