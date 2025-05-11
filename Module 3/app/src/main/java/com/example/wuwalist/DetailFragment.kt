@@ -20,11 +20,11 @@ class DetailFragment : Fragment() {
 
         val name = arguments?.getString("EXTRA_NAME")
         val photo = arguments?.getInt("EXTRA_PHOTO")
-        val profile = arguments?.getString("EXTRA_PROFILE")
+        val description = arguments?.getString("EXTRA_DESCRIPTION")
 
 
         binding.tvCharacter.text = name
-        binding.profileDetailCharacter.text = profile
+        binding.tvDeskripsi.text = description
         photo?.let {
             binding.imgCharacter.setImageResource(it)
         }

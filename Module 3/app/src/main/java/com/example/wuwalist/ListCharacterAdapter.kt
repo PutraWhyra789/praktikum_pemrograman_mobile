@@ -18,7 +18,7 @@ class ListCharacterAdapter(
         val imgPhoto: ImageView = itemView.findViewById(R.id.img_character)
         val tvName: TextView = itemView.findViewById(R.id.tv_character)
         val tvDeskripsi: TextView = itemView.findViewById(R.id.tv_deskripsi)
-        val tvProfile: TextView = itemView.findViewById(R.id.profile_detail_character)
+        val tvProfile: TextView = itemView.findViewById(R.id.tv_deskripsi)
         val btnWiki: Button = itemView.findViewById(R.id.btn_link)
         val btnDetail: Button = itemView.findViewById(R.id.btn_detail)
     }
@@ -31,12 +31,11 @@ class ListCharacterAdapter(
     override fun getItemCount(): Int = listCharacter.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, photo, link, description, profile) = listCharacter[position]
+        val (name, link, description, photo) = listCharacter[position]
         holder.tvName.text = name
         holder.imgPhoto.setImageResource(photo)
         holder.tvDeskripsi.text = description
-        holder.tvProfile.text = profile
         holder.btnWiki.setOnClickListener { onWikiClick(link) }
-        holder.btnDetail.setOnClickListener { onDetailClick(name, photo, profile) }
+        holder.btnDetail.setOnClickListener { onDetailClick(name, photo, description) }
     }
 }

@@ -44,12 +44,12 @@ class HomeFragment : Fragment() {
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse(link))
                 startActivity(intent)
             },
-            onDetailClick = { name, photo, profile ->
+            onDetailClick = { name, photo, description ->
                 val detailFragment = DetailFragment().apply {
                     arguments = Bundle().apply {
                         putString("EXTRA_NAME", name)
                         putInt("EXTRA_PHOTO", photo)
-                        putString("EXTRA_PROFILE", profile)
+                        putString("EXTRA_DESCRIPTION", description)
                     }
                 }
 
@@ -72,10 +72,9 @@ class HomeFragment : Fragment() {
         val dataPhoto = resources.obtainTypedArray(R.array.photo_character)
         val dataLink = resources.getStringArray(R.array.link_character)
         val dataDescription = resources.getStringArray(R.array.deskripsi_character)
-        val dataProfile = resources.getStringArray(R.array.profile_character)
         val listCharacter = ArrayList<Character>()
         for (i in dataName.indices) {
-            val character = Character(dataName[i], dataPhoto.getResourceId(i, -1), dataLink[i], dataDescription[i], dataProfile[i])
+            val character = Character(dataName[i], dataLink[i], dataDescription[i], dataPhoto.getResourceId(i, -1))
             listCharacter.add(character)
         }
         dataPhoto.recycle()
