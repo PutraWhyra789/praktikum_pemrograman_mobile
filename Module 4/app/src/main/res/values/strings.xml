@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Wuwa List</string>
+
+    <string-array name="nama_character">
+        <item>Carlotta</item>
+        <item>Phoebe</item>
+        <item>Jinhsi</item>
+        <item>Calcharo</item>
+        <item>Cartethyia</item>
+    </string-array>
+
+    <string-array name="photo_character">
+        <item>@drawable/card_carlotta</item>
+        <item>@drawable/card_phoebe</item>
+        <item>@drawable/jihni_card</item>
+        <item>@drawable/kakarot_card</item>
+        <item>@drawable/cartethyia_card</item>
+    </string-array>
+
+    <string-array name="link_character">
+        <item>https://wutheringwaves.fandom.com/wiki/Carlotta</item>
+        <item>https://wutheringwaves.fandom.com/wiki/Phoebe</item>
+        <item>https://wutheringwaves.fandom.com/wiki/Jinhsi</item>
+        <item>https://wutheringwaves.fandom.com/wiki/Calcharo</item>
+        <item>https://wutheringwaves.fandom.com/wiki/Cartethyia</item>
+    </string-array>
+
+    <string-array name="deskripsi_character">
+        <item>Carlotta (Chinese: 珂莱塔) is a playable Glacio Mutant Resonator in Wuthering Waves. She is the second daughter of the esteemed Montelli family of Rinascita, embodying innate nobility and a refined appreciation for art.</item>
+        <item>Phoebe (Chinese: 菲比) is a playable Spectro Unknown Resonator in Wuthering Waves. She is an Acolyte of the Order of the Deep. She is a young woman of quiet devotion. With a kind heart, she fulfills her duties with unwavering diligence. Her prayers, like the light she carries, offer comfort and peace to all.</item>
+        <item>Jinhsi (Chinese: 今汐) is a playable Spectro Congenital Resonator in Wuthering Waves. She is the magistrate of Jinzhou. She has a resonance connection with the Sentinel, Jué, who manifests in the shape of a LoongDragon.</item>
+        <item>Calcharo is a playable Electro Natural Resonator in Wuthering Waves. He is a former Exile from the New Federation\'s Lawless Zone and the leader of the Ghost Hounds.</item>
+        <item>Cartethyia (Chinese: 卡提修雅) is an upcoming Aero Resonator in Wuthering Waves. Throughout Rinascita, she is revered as Fleurdelys, the "Blessed Maiden," and in some accounts, "The Martyred Maiden." As a key figure in the region’s history, she holds profound influence, with her connections to the Sentinel Imperator, the Threnodian Leviathan, and the Dark Tide.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
