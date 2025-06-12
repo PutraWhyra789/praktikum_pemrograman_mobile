@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/armorListFragment">
+
+    <fragment
+        android:id="@+id/armorListFragment"
+        android:name="com.example.monsterhunterarmor.presentation.home.ArmorListFragment"
+        android:label="Armor List"
+        tools:layout="@layout/fragment_armor_list" >
+        <action
+            android:id="@+id/action_armorListFragment_to_armorDetailFragment"
+            app:destination="@id/armorDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/armorDetailFragment"
+        android:name="com.example.monsterhunterarmor.presentation.detail.ArmorDetailFragment"
+        android:label="Armor Detail"
+        tools:layout="@layout/fragment_armor_detail" >
+        <argument
+            android:name="armor"
+            app:argType="com.example.monsterhunterarmor.data.local.ArmorEntity" />
+    </fragment>
+
+</navigation>
